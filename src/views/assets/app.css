@@ -1,0 +1,120 @@
+
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+    background-color: #fafafa;
+
+}
+
+.home-list-post {
+    background-color: #ffffff;
+}
+
+.home-content-right {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6!important;
+    height: 500px;
+    width: 330px;
+    position: fixed;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 75px;
+    border-bottom: 1px solid #dee2e6!important;
+    
+}
+
+.header .avatar-header img {
+    height: 75px;
+    width: auto;
+}
+
+.menu-top {
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+
+
+.menu-top li{
+    margin: 0 15px 0 15px;
+    
+}
+
+.menu-top li a{
+    color: black !important;
+    float: right;
+}
+.menu-top li a:hover {
+    color: #fc7405 !important;
+    text-decoration:none !important;
+}
+
+
+
+
+.container {
+    width: 100%;
+    margin-top: 75px !important;
+    height: 2000px;
+}
+
+.about-me-page {
+    opacity: 0.4;
+    margin-top: 75px !important;
+    height: 100%;
+    background-image: url("https://www.w3schools.com/howto/img_girl.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-slider-bar {
+    
+}
+
+.about-slider-bar img {
+    width: 100%;
+}
+
+.about-content {
+    height: 1000px;
+
+}
+
+.home-list-post .home-post img {
+    width: 100%;
+    height: auto;
+}
+
+.home-content {
+    padding-top: 50px
+}
+
+.title-home-post {
+    padding: 10px 0 10px 0;
+}
+
+.title-home-post img{
+    height: 37px !important;
+    width: 37px !important;
+}
+
+.title-home-post a:hover{
+    text-decoration:none ;
+}
+.title-name-home-post{
+    color: black;
+}
+
+.title-name-home-post-edit {
+    float: right;
+    margin-right: 15px;
+}
+
+.home-post {
+    margin-bottom: 70px;
+}

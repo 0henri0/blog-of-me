@@ -1,0 +1,22 @@
+
+
+                     <span class='avatar-menu float-left'><img src='https://www.w3schools.com/howto/img_girl.jpg' /></span>
+                       <nav class="navbar navbar-expand-md bg-white navbar-light h-100 pt-0 pb-0">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                           
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <router-link :to="{ name: 'home' }"  class="nav-link">Home</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link :to="{ name: 'posts' }"  class="nav-link">Posts</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link :to="{ name: 'about-me' }"  class="nav-link">About Me</router-link>
+                            </li>    
+                            </ul>
+                        </div>  
+                    </nav>
