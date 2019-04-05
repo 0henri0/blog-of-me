@@ -6,10 +6,6 @@ body {
 
 }
 
-.home-list-post {
-    background-color: #ffffff;
-}
-
 .home-content-right {
     background-color: #ffffff;
     border: 1px solid #dee2e6!important;
@@ -117,4 +113,5 @@ body {
 
 .home-post {
     margin-bottom: 70px;
+    background-color: #ffffff;
 }

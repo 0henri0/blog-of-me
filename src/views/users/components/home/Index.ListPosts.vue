@@ -1,8 +1,8 @@
 <template>
   <div class="home-list-post">
-    <HomePost/>
-    <HomePost/>
-    <HomePost/>
+    <HomePost />
+    <HomePost />
+    <HomePost />
   </div>
 </template>
 
