@@ -2,21 +2,19 @@
   <div class="container">
     <div class="home-content row justify-content-center h-100">
       <div class="col-lg-8 col-xl-7">
-        <HomeListPost/>
+        <home-list-post/>
       </div>
-      <div class="col-lg-4 col-xl-4 pl-10 pr-10 ">
-      <div class="home-content-right">
-        
-      </div>
-
+      <div class="col-lg-4 col-xl-4 pl-10 pr-10">
+        <home-menu-right-lists/>
       </div>
     </div>
   </div>
 </template>
 <script>
-import HomeListPost from "./Index.ListPosts";
+import HomeListPost from "./Index.PostLists";
+import HomeMenuRightLists from "./Indiex.MenuRightLists";
 export default {
   name: "HomeIndex",
-  components: { HomeListPost }
+  components: { HomeListPost, HomeMenuRightLists }
 };
 </script>

@@ -26,10 +26,14 @@
 
     <div class="footer-home-post pl-4 pr-2">
       <div class="footer-home-post-icon row ml-0 mr-0 mb-2 mt-2">
-          <i class="fa fa-heart-o fa fa-2x mr-2" aria-hidden="true"></i>
-          <i class="fa fa-share fa fa-2x ml-auto mr-2" aria-hidden="true"></i>
+        <i class="fa fa-heart-o fa fa-2x mr-2" aria-hidden="true"></i>
+        <i class="fa fa-share fa fa-2x ml-auto mr-2" aria-hidden="true"></i>
       </div>
-      <div class="footer-home-post-status row ml-0 mr-3 mb-2"><span> <strong>Thai: </strong>Bánh rán mật, n giobánh được n thơm hơn và màu sắc đậm đà bắt mắt...</span></div>
+      <div class="footer-home-post-status row ml-0 mr-3 mb-2">
+        <span>
+          <strong>Thai:</strong>Bánh rán mật, n giobánh được n thơm hơn và màu sắc đậm đà bắt mắt...
+        </span>
+      </div>
     </div>
   </div>
 </template>

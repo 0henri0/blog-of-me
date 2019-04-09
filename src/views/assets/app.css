@@ -1,4 +1,3 @@
-
 @import "~font-awesome/css/font-awesome.css";
 
 body {
@@ -7,18 +6,16 @@ body {
 }
 
 .home-content-right {
-    background-color: #ffffff;
-    border: 1px solid #dee2e6!important;
-    height: 500px;
-    width: 330px;
+    height: 400px;
+    width: 350px;
     position: fixed;
 }
 
 .header {
     background-color: #ffffff;
     height: 75px;
-    border-bottom: 1px solid #dee2e6!important;
-    
+    border-bottom: 1px solid #dee2e6 !important;
+
 }
 
 .header .avatar-header img {
@@ -29,23 +26,24 @@ body {
 .menu-top {
     width: 100%;
     height: 75px;
-    border-bottom: 1px solid #dee2e6!important;
+    border-bottom: 1px solid #dee2e6 !important;
 }
 
 
 
-.menu-top li{
+.menu-top li {
     margin: 0 15px 0 15px;
-    
+
 }
 
-.menu-top li a{
+.menu-top li a {
     color: black !important;
     float: right;
 }
+
 .menu-top li a:hover {
     color: #fc7405 !important;
-    text-decoration:none !important;
+    text-decoration: none !important;
 }
 
 
@@ -68,9 +66,7 @@ body {
     background-size: cover;
 }
 
-.about-slider-bar {
-    
-}
+.about-slider-bar {}
 
 .about-slider-bar img {
     width: 100%;
@@ -94,15 +90,16 @@ body {
     padding: 10px 0 10px 0;
 }
 
-.title-home-post img{
+.title-home-post img {
     height: 37px !important;
     width: 37px !important;
 }
 
-.title-home-post a:hover{
-    text-decoration:none ;
+.title-home-post a:hover {
+    text-decoration: none;
 }
-.title-name-home-post{
+
+.title-name-home-post {
     color: black;
 }
 
@@ -114,4 +111,32 @@ body {
 .home-post {
     margin-bottom: 70px;
     background-color: #ffffff;
+}
+
+
+
+.home-content-right-posts-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.home-content-right-posts-content::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: #F5F5F5;
+}
+
+.home-content-right-posts-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+    width: 15px;
+}
+
+
+.home-menu-right:hover{
+    background-color: #f7d3b5;
 }
