@@ -26,6 +26,16 @@ export default new Router({
                 path: '/',
                 name: 'home',
                 component: () => import('../views/users/components/home/Index.vue'),
+                meta: {
+                    progress: {
+                      func: [
+                        {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                        {call: 'fail', modifier: 'temp', argument: '#6e0000'},
+                        {call: 'location', modifier: 'temp', argument: 'top'},
+                        {call: 'transition', modifier: 'temp', argument: {speed: '1.5s', opacity: '0.6s', termination: 400}}
+                      ]
+                    }
+                },
             },
             // =============================================================================
             // Theme Routes
@@ -34,12 +44,32 @@ export default new Router({
                 path: '/posts',
                 name: 'posts',
                 component: () => import('../views/users/components/posts/Index.vue'),
+                meta: {
+                    progress: {
+                      func: [
+                        {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                        {call: 'fail', modifier: 'temp', argument: '#6e0000'},
+                        {call: 'location', modifier: 'temp', argument: 'top'},
+                        {call: 'transition', modifier: 'temp', argument: {speed: '1.5s', opacity: '0.6s', termination: 400}}
+                      ]
+                    }
+                },
             },
 
             {
                 path: '/about-me',
                 name: 'about-me',
                 component: () => import('../views/users/components/aboutMe/AboutMe.vue'),
+                meta: {
+                    progress: {
+                      func: [
+                        {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                        {call: 'fail', modifier: 'temp', argument: '#6e0000'},
+                        {call: 'location', modifier: 'temp', argument: 'top'},
+                        {call: 'transition', modifier: 'temp', argument: {speed: '1.5s', opacity: '0.6s', termination: 400}}
+                      ]
+                    }
+                },
             }
 
         ]

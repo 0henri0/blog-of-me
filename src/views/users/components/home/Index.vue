@@ -11,8 +11,8 @@
   </div>
 </template>
 <script>
-import HomeListPost from "./Index.PostLists";
-import HomeMenuRightLists from "./Indiex.MenuRightLists";
+import HomeListPost from "./PostLists";
+import HomeMenuRightLists from "./MenuRightLists";
 export default {
   name: "HomeIndex",
   components: { HomeListPost, HomeMenuRightLists }

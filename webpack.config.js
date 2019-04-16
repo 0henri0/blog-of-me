@@ -7,7 +7,8 @@ module.exports = {
       path: path.resolve(__dirname, 'static')
    },
    devServer: {
-      contentBase: './static'
+      contentBase: './static',
+      https: true
    },
    module: {
       rules: [

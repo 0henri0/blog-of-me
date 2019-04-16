@@ -5,7 +5,7 @@
         <div class="home-content-right-title col pr-0 pl-0">
           <span
             class="home-content-right-title-span d-flex justify-content-center"
-          >𝒻𝒶𝓋𝑜𝓇𝒾𝓉𝑒𝓈!</span>
+          >ғᴀᴠᴏʀɪᴇs!</span>
         </div>
       </div>
 
@@ -17,23 +17,57 @@
         <home-menu-right/>
       </div>
     </div>
+
     <div class="home-content-right-about mt-4">
       <p class="home-content-right-about-author mb-0">Author By Mr.Thai</p>
       <div>
         Contact:
-        <a href="https://www.facebook.com/Mr.Thai.95">Facebook</a> |
-        <a href="https://github.com/0henri0">Github</a>
+        <a href="https://www.facebook.com/Mr.Thai.1612" target="_blank">Facebook</a> |
+        <a href="https://github.com/0henri0" target="_blank">Github</a>
       </div>
+    </div>
+
+    <div class="home-content-right-about mt-2">
+      <img
+        v-if="canDisplay"
+        :style="{'opacity': opacity}"
+        id="poster"
+        class="home-content-right-img-poster border border-info"
+        v-bind:src="img"
+        alt="scac"
+      >
     </div>
   </div>
 </template>
 
 <script>
-import HomeMenuRight from "./Index.MenuRight";
+import HomeMenuRight from "./MenuRight";
+import { setTimeout, setInterval, clearInterval } from "timers";
 export default {
   name: "HomeMenuRightLists",
   components: {
     HomeMenuRight
+  },
+  data() {
+    return {
+      canDisplay: true,
+      time: 250,
+      opacity: 0,
+      img: "https://www.w3schools.com/howto/img_girl.jpg"
+    };
+  },
+  created() {},
+  mounted() {
+    var self = this;
+    setInterval(() => {
+      if (self.opacity < 1) {
+        self.opacity += 0.1;
+      } else {
+        let dl = document.createElement("a");
+        dl.href = self.img;
+        self.opacity = 0;
+      }
+    }, 200);
   }
 };
 </script>
@@ -62,9 +96,9 @@ a:hover {
 }
 
 .home-content-right-title-span {
-  color: #f33ca8;
+  color: #0058ff;
   font-size: 25px;
-  background-color: #f5d2d2;
+  background-color: #d2d2d2;
 }
 
 .home-content-right-posts {
@@ -78,5 +112,10 @@ a:hover {
 .home-content-right-about {
   color: #b1b2b3;
   text-align: center;
+}
+
+.home-content-right-img-poster {
+  height: auto;
+  width: 100%;
 }
 </style>

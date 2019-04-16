@@ -1,5 +1,5 @@
 <template>
-  <div class="home-menu-right">
+  <div class="home-menu-right rounded-lg">
     <div class="row mr-0 ml-0 pb-2 pt-2 pl-2">
       <div class="col-4 pr-0 pl-0">
         <img
